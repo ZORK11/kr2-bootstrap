@@ -1,0 +1,43 @@
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+.hero {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e7f1ff 100%);
+  border-bottom: 1px solid #dee2e6;
+}
+
+.product-img-placeholder {
+  height: 220px;
+  background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+  color: #6c757d;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.product-img-large {
+  height: 420px;
+  font-size: 1.2rem;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.navbar-brand {
+  letter-spacing: 0.03em;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+  .product-img-large {
+    height: 280px;
+  }
+}

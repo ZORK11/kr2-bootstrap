@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TechShop — главная</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+<body class="d-flex flex-column min-vh-100">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="index.html">TechShop</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+            aria-controls="mainNav" aria-expanded="false" aria-label="Переключить навигацию">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Главная</a></li>
+        <li class="nav-item"><a class="nav-link" href="catalog.html">Каталог</a></li>
+        <li class="nav-item"><a class="nav-link" href="order.html">Заявка</a></li>
+      </ul>
+      <a class="btn btn-outline-light ms-lg-3" href="order.html">Оставить заявку</a>
+    </div>
+  </div>
+</nav>
+
+<main class="flex-grow-1">
+  <section class="hero py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-12 col-lg-7">
+          <span class="badge bg-warning text-dark mb-3">Новая коллекция 2026</span>
+          <h1 class="display-5 fw-bold mb-3">Техника и гаджеты для учёбы, работы и отдыха</h1>
+          <p class="lead text-secondary mb-4">
+            Каталог проверенных товаров, понятные характеристики и быстрая заявка на заказ.
+          </p>
+          <div class="d-flex flex-column flex-sm-row gap-2">
+            <a href="catalog.html" class="btn btn-primary btn-lg">Перейти в каталог</a>
+            <a href="order.html" class="btn btn-outline-dark btn-lg">Оформить заявку</a>
+          </div>
+        </div>
+        <div class="col-12 col-lg-5">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body p-4">
+              <h2 class="h5">Почему TechShop?</h2>
+              <ul class="list-unstyled mb-0">
+                <li class="mb-2">✅ Подборка популярных товаров</li>
+                <li class="mb-2">✅ Понятные характеристики</li>
+                <li class="mb-2">✅ Быстрая форма заявки</li>
+                <li>✅ Адаптивный интерфейс</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-4">
+    <div class="container">
+      <div class="alert alert-info alert-dismissible fade show" role="alert">
+        <strong>Акция:</strong> при заявке через сайт действует бесплатная консультация по подбору товара.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Закрыть"></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="pb-5">
+    <div class="container">
+      <h2 class="h3 mb-4">Преимущества</h2>
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-primary mb-2">01</span>
+              <h3 class="h5">Проверенный каталог</h3>
+              <p class="text-secondary mb-0">Только понятные карточки товаров с характеристиками.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-success mb-2">02</span>
+              <h3 class="h5">Быстрая заявка</h3>
+              <p class="text-secondary mb-0">Форма заказа с обязательными полями и проверкой данных.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-warning text-dark mb-2">03</span>
+              <h3 class="h5">Адаптивность</h3>
+              <p class="text-secondary mb-0">Сетка Bootstrap корректно перестраивается на телефоне и ПК.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body">
+              <span class="badge bg-dark mb-2">04</span>
+              <h3 class="h5">Единый стиль</h3>
+              <p class="text-secondary mb-0">Bootstrap-компоненты и аккуратные фирменные доработки.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pb-5">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-center mb-4">
+        <h2 class="h3 mb-0">Популярные товары</h2>
+        <a href="catalog.html" class="btn btn-sm btn-outline-primary">Весь каталог</a>
+      </div>
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://img.mvideo.ru/product-medias/photos/4264234/25b551ba-4f8b-4500-84aa-9518738a5b69.jpg?width=300&fmt=avif" class="card-img-top product-img-placeholder d-flex align-items-center justify-content-center">
+            <div class="card-body">
+              <span class="badge bg-success mb-2">Хит</span>
+              <h3 class="h5 card-title">Беспроводные наушники</h3>
+              <p class="card-text text-secondary">Bluetooth 5.3, шумоподавление, до 30 часов работы.</p>
+              <p class="fw-bold mb-3">7 990 ₽</p>
+              <a href="product.html" class="btn btn-primary">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://avatars.mds.yandex.net/get-mpic/20004663/2a0000019d00aa44334e454f6c6eac23bd72/orig" class="card-img-top product-img-placeholder d-flex align-items-center justify-content-center">
+            <div class="card-body">
+              <span class="badge bg-primary mb-2">Новинка</span>
+              <h3 class="h5 card-title">Механическая клавиатура</h3>
+              <p class="card-text text-secondary">Компактный формат, RGB-подсветка, переключатели Red.</p>
+              <p class="fw-bold mb-3">5 490 ₽</p>
+              <a href="product.html" class="btn btn-primary">Подробнее</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card h-100 shadow-sm">
+            <img src="https://avatars.mds.yandex.net/get-mpic/16671337/2a000001985f90ee10d2c1c7fab46f603761/orig" class="card-img-top product-img-placeholder d-flex align-items-center justify-content-center">
+            <div class="card-body">
+              <span class="badge bg-danger mb-2">Скидка</span>
+              <h3 class="h5 card-title">Портативный монитор</h3>
+              <p class="card-text text-secondary">15,6″, Full HD, USB-C, лёгкий корпус для работы.</p>
+              <p class="fw-bold mb-3">12 990 ₽</p>
+              <a href="product.html" class="btn btn-primary">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="bg-dark text-white py-4 mt-auto">
+  <div class="container">
+    <div class="row g-3 align-items-center">
+      <div class="col-12 col-md-6">
+        <p class="mb-0">© 2026 TechShop. Контрольная работа №2.</p>
+      </div>
+      <div class="col-12 col-md-6 text-md-end">
+        <a href="catalog.html" class="link-light me-3">Каталог</a>
+        <a href="order.html" class="link-light">Заявка</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
